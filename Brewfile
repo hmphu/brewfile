@@ -34,6 +34,7 @@ brew "nvm"
 brew "wpscan"
 brew "task"
 brew "jenv"
+brew "helm"
 brew "kubectx"
 brew "kubernetes-cli"
 
