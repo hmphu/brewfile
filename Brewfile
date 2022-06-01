@@ -38,6 +38,7 @@ brew "helm"
 brew "kubectx"
 brew "kubernetes-cli"
 
+cask "lulu"
 cask "docker"
 cask "itsycal"
 cask "qlimagesize"
