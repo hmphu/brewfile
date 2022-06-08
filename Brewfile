@@ -37,6 +37,7 @@ brew "jenv"
 brew "helm"
 brew "kubectx"
 brew "kubernetes-cli"
+brew "krew"
 
 cask "lulu"
 cask "docker"
