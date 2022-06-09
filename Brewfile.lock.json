@@ -11,10 +11,10 @@
         "revision": "f93f4a78aa22081ecd313333f35f211cc782ec9b"
       },
       "homebrew/cask": {
-        "revision": "8ddac76280c9ebe45b1f2fba6fb7163710e1fb40"
+        "revision": "40e5011ed002e2f725ca951047f089f5a2e35339"
       },
       "homebrew/core": {
-        "revision": "56e6bcd7a8a8e35ea7f7f5c59d97f862e07349aa"
+        "revision": "87f5c3bf311f07f5c94fb5dba009224196c13136"
       },
       "homebrew/services": {
         "revision": "7ca25997ef98c0c02f8d4694c535751fa0c8e835"
@@ -1217,7 +1217,7 @@
         }
       },
       "discord": {
-        "version": "0.0.266",
+        "version": "0.0.267",
         "options": {
           "full_name": "discord"
         }
@@ -1245,6 +1245,12 @@
         "options": {
           "full_name": "lulu"
         }
+      },
+      "alt-tab": {
+        "version": "6.42.0",
+        "options": {
+          "full_name": "alt-tab"
+        }
       }
     }
   },
@@ -1253,7 +1259,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.5.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "56e6bcd7a8a8e35ea7f7f5c59d97f862e07349aa",
+        "Homebrew/homebrew-core": "87f5c3bf311f07f5c94fb5dba009224196c13136",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4.1",
         "macOS": "12.4"
