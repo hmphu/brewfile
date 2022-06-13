@@ -39,7 +39,6 @@ brew "kubectx"
 brew "kubernetes-cli"
 brew "krew"
 
-cask "alt-tab"
 cask "lulu"
 cask "docker"
 cask "itsycal"
