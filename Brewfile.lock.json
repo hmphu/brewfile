@@ -8,19 +8,19 @@
         "revision": "cb37d209a1d4d0a9d6a062720b00729763f36b27"
       },
       "homebrew/bundle": {
-        "revision": "f93f4a78aa22081ecd313333f35f211cc782ec9b"
+        "revision": "e3d548d327e050a96c9f8b5a0b40f8a017905128"
       },
       "homebrew/cask": {
-        "revision": "6da4c18cd1da3dca54ffe7d9b7dcb6bb88080e61"
+        "revision": "8ac27cb68ea2c9df098782caad84b4a001b6fa28"
       },
       "homebrew/core": {
-        "revision": "f08f23f4710ee53e9bb26b37744b83ca081c2393"
+        "revision": "d45fc0a7cb565497f1e458d31cea2694c886d53a"
       },
       "homebrew/services": {
-        "revision": "7ca25997ef98c0c02f8d4694c535751fa0c8e835"
+        "revision": "b832c22288d9b48b8be3defd02a919104a7fa4d2"
       },
       "homebrew/cask-fonts": {
-        "revision": "9d5f340f8e6a6726b8c1814823e62080b888a4f6"
+        "revision": "cb6495716b70b0f89b730121c98491f02352266e"
       },
       "wpscanteam/tap": {
         "revision": "db292b22f138a56c3598be752dd8be9941cc02ef"
@@ -1043,7 +1043,7 @@
         }
       },
       "microsoft-edge": {
-        "version": "102.0.1245.39",
+        "version": "102.0.1245.41",
         "options": {
           "full_name": "microsoft-edge"
         }
@@ -1163,7 +1163,7 @@
         }
       },
       "slack": {
-        "version": "4.26.1",
+        "version": "4.27.154",
         "options": {
           "full_name": "slack"
         }
@@ -1257,15 +1257,21 @@
         "options": {
           "full_name": "drawio"
         }
+      },
+      "another-redis-desktop-manager": {
+        "version": "1.5.6",
+        "options": {
+          "full_name": "another-redis-desktop-manager"
+        }
       }
     }
   },
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.5.1",
+        "HOMEBREW_VERSION": "3.5.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f08f23f4710ee53e9bb26b37744b83ca081c2393",
+        "Homebrew/homebrew-core": "d45fc0a7cb565497f1e458d31cea2694c886d53a",
         "CLT": "13.4.0.0.1.1651278267",
         "Xcode": "13.4.1",
         "macOS": "12.4"
