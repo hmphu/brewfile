@@ -40,6 +40,8 @@ brew "kubernetes-cli"
 brew "krew"
 
 cask "lulu"
+cask "shottr"
+cask "dropzone"
 cask "docker"
 cask "itsycal"
 cask "qlimagesize"
