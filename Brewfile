@@ -39,7 +39,6 @@ brew "kubectx"
 brew "kubernetes-cli"
 brew "krew"
 
-cask "unclack"
 cask "lulu"
 cask "shottr"
 cask "dropzone"
