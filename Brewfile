@@ -45,6 +45,7 @@ brew "z"
 brew "zsh"
 brew "zsh-completions"
 
+cask "enpass"
 cask "alfred"
 cask "another-redis-desktop-manager"
 cask "authy"
