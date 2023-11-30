@@ -40,6 +40,7 @@ brew "z"
 brew "zsh"
 brew "zsh-completions"
 
+cask "skype"
 cask "enpass"
 cask "alfred"
 cask "another-redis-desktop-manager"
