@@ -8,7 +8,7 @@
         "revision": "a20493d889e1bc3c30609ba1e765ea846b560fc9"
       },
       "homebrew/bundle": {
-        "revision": "addd839e968fc667fb083a43fb350a8535697d0d"
+        "revision": "bb1c80baa7fac67bbffe81a2862c75a5dc7ea4a7"
       },
       "homebrew/cask": {
         "revision": "aaabbfc8ad7123924c857f53a1edcbaae02f3a5b"
@@ -17,7 +17,7 @@
         "revision": "de1896620057ef9db8da21866cccf84e9d4778b5"
       },
       "homebrew/services": {
-        "revision": "672cb6c833ed1087a9da0c2c60dfbad66b66e4af"
+        "revision": "9d3512ce81d8bda9f9eb909592ca75768f2b051d"
       },
       "homebrew/cask-fonts": {
         "revision": "f1f6f638d84ab6a02fd747033e8c323920124b00"
@@ -4563,13 +4563,13 @@
         }
       },
       "microsoft-edge": {
-        "version": "122.0.2365.63,21a73de0-1704-4568-b12a-a3b21dbec451",
+        "version": "122.0.2365.80,11fca4af-cf39-4407-94b7-0574108ba352",
         "options": {
           "full_name": "microsoft-edge"
         }
       },
       "skype": {
-        "version": "8.113.0.210",
+        "version": "8.114.0.214",
         "options": {
           "full_name": "skype"
         }
@@ -4647,7 +4647,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.87.0",
+        "version": "1.87.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -5087,7 +5087,7 @@
         "macOS": "13.5.2"
       },
       "sonoma": {
-        "HOMEBREW_VERSION": "4.2.11-73-g3802d11",
+        "HOMEBREW_VERSION": "4.2.11-78-g3d948b7",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.1.0.0.1.1700200546",
