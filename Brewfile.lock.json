@@ -4931,6 +4931,12 @@
         "options": {
           "full_name": "linearmouse"
         }
+      },
+      "obsidian": {
+        "version": "1.5.8",
+        "options": {
+          "full_name": "obsidian"
+        }
       }
     },
     "vscode": {
