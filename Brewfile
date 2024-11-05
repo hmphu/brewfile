@@ -1,8 +1,6 @@
 # Specify directory where to install Homebrew apps
 cask_args appdir: "/Applications"
 
-brew analytics off
-
 tap "drud/ddev"
 tap "homebrew/aliases"
 tap "homebrew/bundle"
@@ -81,6 +79,7 @@ cask "mountain-duck"
 cask "drawio"
 cask "craft"
 cask "pritunl"
+cask "orbstack"
 
 
 #### MAS
