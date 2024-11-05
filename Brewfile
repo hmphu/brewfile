@@ -1,7 +1,6 @@
 tap "drud/ddev"
 tap "homebrew/aliases"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
 tap "instrumenta/instrumenta"
 tap "isen-ng/dotnet-sdk-versions"
