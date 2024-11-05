@@ -1,3 +1,8 @@
+# Specify directory where to install Homebrew apps
+cask_args appdir: "/Applications"
+
+brew analytics off
+
 tap "drud/ddev"
 tap "homebrew/aliases"
 tap "homebrew/bundle"
@@ -34,23 +39,15 @@ brew "mise"
 
 #### CASKS
 cask "alfred"
-cask "android-studio"
 cask "beekeeper-studio"
 cask "beyond-compare"
 cask "blockblock"
 cask "caffeine"
 cask "clockify"
-# cask "docker"
-# cask "dotnet-sdk2-2-400"
-# cask "dotnet-sdk5-0-400"
-# cask "dotnet-sdk6-0-400"
-# cask "dotnet-sdk7-0-400"
-# cask "dotnet-sdk8-0-200"
 cask "enpass"
 cask "firefox"
 cask "flycut"
 cask "font-fira-code"
-# cask "hiddenbar"
 cask "iterm2"
 cask "keka"
 cask "kekaexternalhelper"
@@ -76,14 +73,15 @@ cask "sublime-text"
 cask "visual-studio-code"
 cask "whatsapp"
 cask "zalo"
-# cask "linearmouse"
-# cask "obsidian"
 cask "alt-tab"
 cask "google-chrome"
 cask "mongodb-compass"
-# cask "piphero"
 cask "jordanbaird-ice"
 cask "mountain-duck"
 cask "drawio"
 cask "craft"
 cask "pritunl"
+
+
+#### MAS
+mas 'Xcode', id: 497799835
