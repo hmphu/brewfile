@@ -5131,6 +5131,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "navicat-premium-lite": {
+        "version": "17.1.6",
+        "options": {
+          "full_name": "navicat-premium-lite",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     },
     "vscode": {
