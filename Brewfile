@@ -7,6 +7,7 @@ tap "homebrew/services"
 tap "instrumenta/instrumenta"
 tap "isen-ng/dotnet-sdk-versions"
 tap "mutagen-io/mutagen"
+tap "ai-christianson/homebrew-ra-aid"
 
 #### BREWS
 brew "git"
@@ -31,8 +32,12 @@ brew "wget"
 brew "zsh"
 brew "ddev/ddev/ddev"
 brew "mise"
+brew "ra-aid"
 
 #### CASKS
+cask "swiftbar"
+cask "flashspace"
+cask "leader-key"
 cask "powershell"
 cask "alt-tab"
 cask "beekeeper-studio"
@@ -76,6 +81,8 @@ cask "sublime-text"
 cask "visual-studio-code"
 cask "whatsapp"
 cask "raycast"
+cask "cursor"
+cask "trae"
 
 #### MAS
 mas 'Xcode', id: 497799835
