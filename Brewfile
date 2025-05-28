@@ -32,16 +32,14 @@ brew "wget"
 brew "zsh"
 brew "ddev/ddev/ddev"
 brew "mise"
-brew "ra-aid"
 
 #### CASKS
-cask "swiftbar"
-cask "flashspace"
-cask "leader-key"
+#cask "windowkeys"
 cask "powershell"
 cask "alt-tab"
 cask "beekeeper-studio"
 cask "blockblock"
+cask "reikey"
 cask "caffeine"
 cask "clockify"
 cask "craft"
@@ -74,7 +72,6 @@ cask "pritunl"
 cask "rectangle"
 cask "rider"
 cask "shottr"
-cask "skype"
 cask "slack"
 cask "spotify"
 cask "sublime-text"
@@ -82,9 +79,11 @@ cask "visual-studio-code"
 cask "whatsapp"
 cask "raycast"
 cask "cursor"
-cask "trae"
+cask "devtoys"
 
 #### MAS
-mas 'Xcode', id: 497799835
 mas 'Meeter for Zoom, Teams & Co', id:1510445899
 mas 'NextDNS', id: 1464122853
+mas 'Video Converter', id: 1518836004
+mas 'Spokenly', id: 6740315592
+mas 'Countdown Timer Pro', id: 6744842468
