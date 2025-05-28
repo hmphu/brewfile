@@ -36,8 +36,6 @@ brew "ra-aid"
 
 #### CASKS
 cask "swiftbar"
-cask "flashspace"
-cask "leader-key"
 cask "powershell"
 cask "alt-tab"
 cask "beekeeper-studio"
