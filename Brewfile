@@ -32,16 +32,13 @@ brew "wget"
 brew "zsh"
 brew "ddev/ddev/ddev"
 brew "mise"
-brew "ra-aid"
 
 #### CASKS
-cask "swiftbar"
-cask "flashspace"
-cask "leader-key"
 cask "powershell"
 cask "alt-tab"
 cask "beekeeper-studio"
 cask "blockblock"
+cask "reikey"
 cask "caffeine"
 cask "clockify"
 cask "craft"
@@ -82,9 +79,8 @@ cask "visual-studio-code"
 cask "whatsapp"
 cask "raycast"
 cask "cursor"
-cask "trae"
+cask "devtoys"
 
 #### MAS
-mas 'Xcode', id: 497799835
 mas 'Meeter for Zoom, Teams & Co', id:1510445899
 mas 'NextDNS', id: 1464122853
