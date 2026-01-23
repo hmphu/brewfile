@@ -1,89 +1,126 @@
 # Specify directory where to install Homebrew apps
 cask_args appdir: "/Applications"
 
+#### TAPS
 tap "ddev/ddev"
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "instrumenta/instrumenta"
-tap "isen-ng/dotnet-sdk-versions"
-tap "mutagen-io/mutagen"
-tap "ai-christianson/homebrew-ra-aid"
+# tap "go-task/tap"
+# tap "isen-ng/dotnet-sdk-versions"
+# tap "kubewall/tap"
+# tap "minio/stable"
+# tap "mongodb/brew"
+# tap "mutagen-io/mutagen"
+# tap "ngrok/ngrok"
+# tap "shivammathur/php"
 
-#### BREWS
+#### DEVELOPER TOOLS - BREW
+brew "ansible"
 brew "git"
-brew "git-flow"
 brew "helm"
-brew "htop"
 brew "jq"
 brew "kubernetes-cli"
 brew "kubectx"
-brew "m-cli"
+brew "lazydocker"
 brew "make"
+brew "mise"
+brew "tfsec"
+brew "yq"
+brew "ddev/ddev/ddev"
+# brew "gnupg"
+# brew "grpcurl"
+# brew "jinja2-cli"
+# brew "kubewall/tap/kubewall"
+# brew "locust"
+# brew "watchman"
+
+#### SYSTEM UTILITIES - BREW
+brew "htop"
+brew "m-cli"
 brew "mas"
-brew "siege"
 brew "swaks"
 brew "telnet"
-brew "terminal-notifier"
-brew "tfsec"
 brew "tmux"
-brew "vcpkg"
-brew "watchman"
 brew "wget"
 brew "zsh"
-brew "ddev/ddev/ddev"
-brew "mise"
 
-#### CASKS
-#cask "windowkeys"
-cask "powershell"
-cask "alt-tab"
-cask "beekeeper-studio"
-cask "blockblock"
-cask "reikey"
-cask "caffeine"
-cask "clockify"
-cask "craft"
-cask "drawio"
-cask "enpass"
-cask "firefox"
-cask "flycut"
-cask "font-fira-code"
-cask "google-chrome"
+#### DEVELOPER TOOLS - CASK
+cask "kiro-cli"
+cask "mongodb-compass"
+cask "navicat-premium-lite"
+cask "orbstack"
+cask "postman"
+cask "soapui"
+cask "sublime-text"
+# cask "android-studio"
+# cask "phpstorm"
+# cask "rider"
+# cask "visual-studio-code"
+# cask "webstorm"
+
+#### SYSTEM UTILITIES - CASK
 cask "iterm2"
 cask "jordanbaird-ice"
-cask "keka"
-cask "kekaexternalhelper"
+cask "monitorcontrol"
+cask "raycast"
+cask "rectangle"
+# cask "pearcleaner"
+
+#### SECURITY & PRIVACY - CASK
+cask "blockblock"
+cask "enpass"
 cask "knockknock"
 cask "lulu"
-cask "macdown"
-cask "microsoft-edge"
-cask "microsoft-outlook"
-cask "mongodb-compass"
-cask "monitorcontrol"
-cask "mountain-duck"
-cask "navicat-premium-lite"
-cask "ngrok"
-cask "openkey"
-cask "orbstack"
 cask "oversight"
-cask "phpstorm"
-cask "postman"
 cask "pritunl"
-cask "rectangle"
-cask "rider"
-cask "shottr"
-cask "slack"
-cask "spotify"
-cask "sublime-text"
-cask "visual-studio-code"
-cask "whatsapp"
-cask "raycast"
-cask "cursor"
-cask "devtoys"
+cask "reikey"
 
-#### MAS
-mas 'Meeter for Zoom, Teams & Co', id:1510445899
-mas 'NextDNS', id: 1464122853
-mas 'Video Converter', id: 1518836004
-mas 'Spokenly', id: 6740315592
-mas 'Countdown Timer Pro', id: 6744842468
+#### PRODUCTIVITY - CASK
+cask "caffeine"
+cask "flycut"
+cask "keka"
+cask "kekaexternalhelper"
+cask "microsoft-outlook"
+cask "shottr"
+# cask "clockify"
+# cask "drawio"
+# cask "mountain-duck"
+# cask "slack"
+
+#### BROWSERS - CASK
+cask "firefox"
+cask "google-chrome"
+#cask "microsoft-edge"
+
+#### COMMUNICATION - CASK
+cask "whatsapp"
+cask "zalo"
+
+#### MEDIA & ENTERTAINMENT - CASK
+cask "spotify"
+
+#### FONTS - CASK
+cask "font-fira-code"
+
+#### DEVELOPER TOOLS - MAS
+mas "TestFlight", id: 899247664
+mas "Xcode", id: 497799835
+
+#### SECURITY & PRIVACY - MAS
+mas "NextDNS", id: 1464122853
+
+#### PRODUCTIVITY - MAS
+mas "CheckLater", id: 0
+mas "LunarCalendar", id: 6477778908
+mas "Meeter", id: 1510445899
+mas "Obsidian Web Clipper", id: 6720708363
+mas "Perplexity", id: 6714467650
+mas "The Unarchiver", id: 425424353
+
+#### COMMUNICATION - MAS
+mas "Telegram", id: 747648890
+
+#### MEDIA & ENTERTAINMENT - MAS
+mas "Seashore", id: 1448648921
+
+#### REMOTE ACCESS - MAS
+mas "Windows App", id: 1295203466
