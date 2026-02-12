@@ -58,6 +58,7 @@ cask "sublime-text"
 # cask "webstorm"
 
 #### SYSTEM UTILITIES - CASK
+cask "finetune"
 cask "iterm2"
 cask "jordanbaird-ice"
 cask "monitorcontrol"
