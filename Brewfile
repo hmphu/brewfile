@@ -4,6 +4,7 @@
 #### TAPS
 tap "ddev/ddev"
 tap "instrumenta/instrumenta"
+tap "manaflow-ai/cmux"
 # tap "go-task/tap"
 # tap "isen-ng/dotnet-sdk-versions"
 # tap "kubewall/tap"
@@ -102,6 +103,8 @@ cash "zed"
 cask "gonhanh"
 # Terminal emulator
 cask "iterm2"
+# Lightweight, native macOS terminal built on Ghocmux
+cask "cmux"
 # Menu bar management tool
 cask "jordanbaird-ice"
 # External display brightness and volume control
