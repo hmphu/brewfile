@@ -14,6 +14,8 @@ tap "instrumenta/instrumenta"
 # tap "shivammathur/php"
 
 #### DEVELOPER TOOLS - BREW
+# A Swiss-army app for developers
+brew "devtui"
 # IT automation tool for configuration management and deployment
 brew "ansible"
 # Distributed version control system
@@ -54,6 +56,8 @@ brew "ddev/ddev/ddev"
 # brew "watchman"
 
 #### SYSTEM UTILITIES - BREW
+# Yet Another Dotfiles Manager
+brew "yadm"
 # Interactive process viewer
 brew "htop"
 # macOS command-line tools
@@ -85,7 +89,7 @@ cask "orbstack"
 # API development and testing platform
 cask "postman"
 # High-performance code editor
-cash "zed"
+cask "zed"
 # Text editor
 # cask "sublime-text"
 # IDE for Android development
@@ -98,6 +102,8 @@ cash "zed"
 # cask "webstorm"
 
 #### SYSTEM UTILITIES - CASK
+# Instant fuzzy find any file (Windows "Everything" for Mac)
+cask "thelowtechguys-cling"
 # Vietnamese keyboard input method
 cask "gonhanh"
 # Terminal emulator
@@ -168,6 +174,8 @@ cask "zalo"
 #### MEDIA & ENTERTAINMENT - CASK
 # Music streaming service
 cask "spotify"
+# Stop the Music app from launching
+cask "music-decoy"
 
 #### FONTS - CASK
 # Monospaced font with programming ligatures
@@ -184,18 +192,12 @@ mas "Xcode", id: 497799835
 mas "NextDNS", id: 1464122853
 
 #### PRODUCTIVITY - MAS
-# Task management app
-mas "CheckLater", id: 0
 # Lunar calendar for menu bar
 mas "LunarCalendar", id: 6477778908
 # Menu bar app for quick access to meetings
 mas "Meeter", id: 1510445899
 # Web clipper for Obsidian note-taking app
 mas "Obsidian Web Clipper", id: 6720708363
-# AI-powered search and answer engine
-mas "Perplexity", id: 6714467650
-# Archive extraction utility
-mas "The Unarchiver", id: 425424353
 
 #### COMMUNICATION - MAS
 # Messaging app
@@ -203,7 +205,7 @@ mas "Telegram", id: 747648890
 
 #### MEDIA & ENTERTAINMENT - MAS
 # Image editor
-mas "Seashore", id: 1448648921
+# mas "Seashore", id: 1448648921
 
 #### REMOTE ACCESS - MAS
 # Microsoft Remote Desktop client
