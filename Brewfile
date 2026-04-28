@@ -2,8 +2,24 @@
 # cask_args appdir: "/Applications"
 
 #### TAPS
-tap "ddev/ddev"
-tap "instrumenta/instrumenta"
+tap "ddev/ddev", trusted: true
+tap "instrumenta/instrumenta", trusted: true
+tap "deanopen/tap", trusted: true
+tap "agent-sh/agnix", trusted: true
+tap "anomalyco/tap", trusted: true
+tap "antoniorodr/memo", trusted: true
+tap "burnrate-dev/tap", trusted: true
+tap "charmbracelet/tap", trusted: true
+tap "cloudflare/cloudflare", trusted: true
+tap "gentleman-programming/tap", trusted: true
+tap "iliyami/macsai", trusted: true
+tap "manaflow-ai/cmux", trusted: true
+tap "markdownbetterview/tap", "https://github.com/MarkdownBetterView/homebrew-tap.git", trusted: true
+tap "skatkov/tap", trusted: true
+tap "steipete/tap", trusted: true
+tap "veloxbase/veloxdb", trusted: true
+tap "yakitrak/yakitrak", trusted: true
+tap "zqxwce/tap", trusted: true
 # tap "go-task/tap"
 # tap "isen-ng/dotnet-sdk-versions"
 # tap "kubewall/tap"
@@ -15,7 +31,7 @@ tap "instrumenta/instrumenta"
 
 #### DEVELOPER TOOLS - BREW
 # A Swiss-army app for developers
-brew "devtui"
+# brew "skatkov/tap/devtui"
 # IT automation tool for configuration management and deployment
 brew "ansible"
 # Distributed version control system
@@ -42,12 +58,26 @@ brew "tfsec"
 brew "yq"
 # Docker-based local development environment for PHP
 brew "ddev/ddev/ddev"
-# GNU Privacy Guard for encryption and signing
-# brew "gnupg"
-# Command-line tool for interacting with gRPC servers
-# brew "grpcurl"
-# Command-line interface for Jinja2 templating
-# brew "jinja2-cli"
+# Certbot for Let's Encrypt SSL certificates
+brew "certbot"
+# AI Cli Proxy API
+brew "cliproxyapi"
+# Cloudflare Tunnel for secure access to local services
+brew "cloudflared"
+# CocoaPods for managing dependencies in iOS projects
+brew "cocoapods"
+# GitHub CLI for interacting with GitHub
+brew "gh"
+# GitLab CLI for interacting with GitLab
+brew "glab"
+# Helmfile for managing Helm chart releases
+brew "helmfile"
+# Python 3.13
+brew "python@3.13"
+# CLI proxy that reduces LLM token consumption by 60-90% on common dev commands
+brew "rtk"
+# Persistent memory system for AI coding agents
+brew "gentleman-programming/tap/engram"
 # Kubernetes dashboard
 # brew "kubewall/tap/kubewall"
 # Load testing tool
@@ -87,9 +117,15 @@ cask "navicat-premium-lite"
 # Fast, lightweight Docker and Linux VM alternative
 cask "orbstack"
 # API development and testing platform
-cask "postman"
+# cask "postman"
 # High-performance code editor
 cask "zed"
+# Claude code editor
+# cask "claude-code"
+# VeloxDB is a fast, secure, lightweight database admin tool for 13 engines including PostgreSQL
+# cask "veloxbase/veloxdb/veloxdb"
+# V-phone CLI managing IOS Simulator
+# cask "zqxwce/tap/vphone-cli"
 # Text editor
 # cask "sublime-text"
 # IDE for Android development
@@ -102,14 +138,17 @@ cask "zed"
 # cask "webstorm"
 
 #### SYSTEM UTILITIES - CASK
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 # Instant fuzzy find any file (Windows "Everything" for Mac)
-cask "thelowtechguys-cling"
+# cask "thelowtechguys-cling"
 # Vietnamese keyboard input method
 cask "gonhanh"
 # Terminal emulator
 cask "iterm2"
 # Menu bar management tool
-cask "jordanbaird-ice"
+cask "thaw"
+# cask "jordanbaird-ice"
 # External display brightness and volume control
 cask "monitorcontrol"
 # Productivity launcher and command palette
@@ -118,6 +157,10 @@ cask "raycast"
 cask "rectangle"
 # App uninstaller
 # cask "pearcleaner"
+# System Cleaner
+# cask "puremac"
+cask "karabiner-elements"
+# cask "wailbrew"
 
 #### SECURITY & PRIVACY - CASK
 # Monitors and blocks persistent malware
@@ -147,7 +190,9 @@ cask "kekaexternalhelper"
 # Email and calendar client
 cask "microsoft-outlook"
 # Screenshot tool
-cask "shottr"
+# cask "shottr"
+# Screenshot tool (free - opensource https://github.com/sw33tLie/macshot)
+cask "macshot"
 # Time tracking tool
 # cask "clockify"
 # Diagramming tool
@@ -156,14 +201,21 @@ cask "shottr"
 # cask "mountain-duck"
 # Team communication platform
 # cask "slack"
+# Ultraviewer for Mac
+cask "deanopen/tap/macviewer"
+# Remote desktop client
+cask "jump-desktop-connect"
+
 
 #### BROWSERS - CASK
 # Web browser by Mozilla
-cask "firefox"
+# cask "firefox"
 # Web browser by Google
 cask "google-chrome"
 # Web browser by Microsoft
 #cask "microsoft-edge"
+# BrowserOS
+# cask "browseros"
 
 #### COMMUNICATION - CASK
 # Messaging app
@@ -173,7 +225,7 @@ cask "zalo"
 
 #### MEDIA & ENTERTAINMENT - CASK
 # Music streaming service
-cask "spotify"
+# cask "spotify"
 # Stop the Music app from launching
 cask "music-decoy"
 
@@ -198,10 +250,12 @@ mas "LunarCalendar", id: 6477778908
 mas "Meeter", id: 1510445899
 # Web clipper for Obsidian note-taking app
 mas "Obsidian Web Clipper", id: 6720708363
+# Microsoft Word
+mas "Microsoft Word", id: 462054704
 
 #### COMMUNICATION - MAS
 # Messaging app
-mas "Telegram", id: 747648890
+# mas "Telegram", id: 747648890
 
 #### MEDIA & ENTERTAINMENT - MAS
 # Image editor
