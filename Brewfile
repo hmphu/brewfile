@@ -147,7 +147,9 @@ cask "kekaexternalhelper"
 # Email and calendar client
 cask "microsoft-outlook"
 # Screenshot tool
-cask "shottr"
+# cask "shottr"
+# Screenshot tool (free - opensource https://github.com/sw33tLie/macshot)
+cask "macshot"
 # Time tracking tool
 # cask "clockify"
 # Diagramming tool
